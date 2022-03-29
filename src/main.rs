@@ -3,6 +3,7 @@ fn largest<T>(list: &[T]) -> T {
 
     for &item in list {
         if item > largest {
+            // "cargo run" get the error and help
             largest = item;
         }
     }
